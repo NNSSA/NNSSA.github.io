@@ -7412,6 +7412,7 @@ textarea.form-control-lg {
   background: url("../assets/img/galaxy.jpg");
   background-repeat: no-repeat;
   background-size:cover;
+  background-position: center;
 }
 
 .bg-secondary {
