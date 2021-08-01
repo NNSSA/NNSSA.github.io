@@ -7409,8 +7409,9 @@ textarea.form-control-lg {
 .bg-primary {
   /*background-image: url("../assets/img/galaxy.jpg");
   background-color: #1abc9c !important;*/
-  background: url("../assets/img/galaxy.jpg") no-repeat center fixed;     
-  background-size: contain;
+  background: url("../assets/img/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .bg-secondary {
