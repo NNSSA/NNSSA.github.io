@@ -7410,7 +7410,7 @@ textarea.form-control-lg {
   /*background-image: url("../assets/img/galaxy.jpg");
   background-color: #1abc9c !important;*/
   background: url("../assets/img/galaxy.jpg") no-repeat center fixed;     
-  background-size: cover;
+  background-size: contain;
 }
 
 .bg-secondary {
