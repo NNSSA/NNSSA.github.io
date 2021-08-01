@@ -7407,7 +7407,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-image: url('assets/img/galaxy.jpg');
+  background-image: url('../assets/img/galaxy.jpg');
   /*background-color: #1abc9c !important;*/
 }
 
