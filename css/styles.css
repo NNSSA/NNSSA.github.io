@@ -7415,6 +7415,15 @@ textarea.form-control-lg {
   background-position: center;
 }
 
+.bg-primary2 {
+  /*background-image: url("../assets/img/galaxy.jpg");
+  background-color: #1abc9c !important;*/
+  background: url("../assets/img/deepfield.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
 .bg-secondary {
   background-color: #2c3e50 !important;
 }
