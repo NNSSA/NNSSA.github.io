@@ -7407,8 +7407,10 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-image: url("../assets/img/galaxy.jpg");
-  background-color: #1abc9c !important;
+  /*background-image: url("../assets/img/galaxy.jpg");
+  background-color: #1abc9c !important;*/
+  background: url("../assets/img/galaxy.jpg") no-repeat center fixed;     
+  background-size: cover;
 }
 
 .bg-secondary {
