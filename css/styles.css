@@ -7415,10 +7415,10 @@ textarea.form-control-lg {
   background-position: center;
 }
 
-.bg-primary2 {
+.bg-primary-02 {
   /*background-image: url("../assets/img/galaxy.jpg");
   background-color: #1abc9c !important;*/
-  background: url("../assets/img/deepfield.jpg");
+  background: url("../assets/img/galaxy.jpg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
