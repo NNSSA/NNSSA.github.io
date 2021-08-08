@@ -3872,6 +3872,7 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
 /*   color: #1abc9c; */
+  color: #0ca8c7;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
