@@ -573,8 +573,9 @@ progress {
 }
 
 .img-fit {
-  width: 400px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .img-thumbnail {
