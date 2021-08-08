@@ -3930,6 +3930,7 @@ textarea.form-control-lg {
 .nav-pills .show > .nav-link {
   color: #fff;
 /*   background-color: #1abc9c; */
+  background-color: #0ca8c7;
 }
 
 .nav-fill > .nav-link,
@@ -10976,11 +10977,13 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #0ca8c7;
+/*     #1abc9c; */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #0ca8c7; 
+/*     #1abc9c; */
   }
 
   #mainNav.navbar-shrink {
