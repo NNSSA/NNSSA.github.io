@@ -572,6 +572,11 @@ progress {
   height: auto;
 }
 
+.img-fit {
+  max-width: 100%;
+  height: 500px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
