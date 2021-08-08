@@ -3897,9 +3897,9 @@ textarea.form-control-lg {
 .nav-tabs .nav-link {
   margin-bottom: -0.125rem;
   background: none;
-  border: 0.125rem solid transparent;
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border: 1.125rem solid transparent;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
