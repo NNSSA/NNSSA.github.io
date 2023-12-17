@@ -77,6 +77,20 @@
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
+                <!-- Portfolio Item 8-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Cheetah_JAX.png" alt="..." />
+                        <p class="masthead-subheading font-weight-light mb-0" style="text-align:center;">
+                            <font size="+2"><b>GPU-Accelerated Gravity Simulation in JAX</b></font>
+                        </p>
+                    </div>
+                </div>
                 <!-- Portfolio Item 7-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal7">
@@ -276,6 +290,59 @@
                     href="https://startbootstrap.com/theme/freelancer" target="_blank">Bootstrap</a></small></div>
     </div>
     <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GPU-Accelerated
+                                    Gravity Simulation in JAX</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Cheetah_JAX.png"
+                                    alt="..." />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4" style="text-align:left;">
+                                    <font size="+1"> N-body simulations have been around for a long time to simulate the
+                                        gravitational evolution of particles in a box. In a scenario where there are two
+                                        species and one of them has a negligible backreaction on the other (as is the
+                                        case with neutrinos and dark matter), we can treat the evolution of the
+                                        dominating species independently of the lighter species. This has been dubbed
+                                        the "N-1 body" approach, where now we are only concerned with evolving the
+                                        lighter particles in a pre-computed potential. This scales with the number of
+                                        particles N, and is thus massively parallizable. For this purpose, I wrote <a
+                                            href="https://github.com/NNSSA/Cheetah" target="_blank">Cheetah</a>, a
+                                        GPU-accelerated N-1 body simulation that builds the profile of a species
+                                        clustering onto dark-matter halos.
+                                        <br> <br>
+                                        Paper coming soon...
+                                        <br><br>
+                                    </font>
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Portfolio Modal 7-->
     <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7"
         aria-hidden="true">
