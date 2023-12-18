@@ -77,6 +77,20 @@
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
+                <!-- Portfolio Item 9-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal9">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/21cm_ML.jpg" alt="..." />
+                        <p class="masthead-subheading font-weight-light mb-0" style="text-align:center;">
+                            <font size="+2"><b>Reconstructing Noise-Dominated Modes in 21cm Data Using ML</b></font>
+                        </p>
+                    </div>
+                </div>
                 <!-- Portfolio Item 8-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal8">
@@ -290,6 +304,68 @@
                     href="https://startbootstrap.com/theme/freelancer" target="_blank">Bootstrap</a></small></div>
     </div>
     <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 9-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Reconstructing
+                                    Noise-Dominated Modes in 21cm Data Using ML</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/21cm_ML.jpg" alt="..." />
+
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4" style="text-align:left;">
+                                    <font size="+1"> The eras of cosmic dawn and reionization are the new frontiers in
+                                        our exploration of the cosmos. One way to observe what went on during that time
+                                        is by looking at emission lines of neutral hydrogen, which is very abundant in
+                                        the Universe. A prominent example here is the spectral line with a wavelength of
+                                        21cm, which is induced by the hyperfine structure of hydrogen, making it a prime
+                                        target to detect with radio interferometer observatories on Earth, such as <a
+                                            href="https://reionization.org" target="_blank">HERA</a>. One problem with
+                                        these kind of observations is that the interaction between the interferometer
+                                        and the smooth astrophysical foreground emission induces a wedge-shaped region
+                                        in Fourier space that dominates over the 21cm signal by 5-6 orders of magnitude,
+                                        leaving only a small window in which the 21cm signal may be cleanly observed.
+                                        <br> <br>
+                                        Instead of modeling the foreground noise down to 1 part in 10^5 (almost
+                                        impossible today), one could exploit the inherent non-Gaussian correlations that
+                                        exist between 21cm modes inside and outside the wedge. Neural networks make for
+                                        useful tools to learn these correlations, which can then be used to reconstruct
+                                        the 21cm signal inside the wedge region by just looking at the modes outside of
+                                        the wedge. In this project, we use generative models and condition the
+                                        inpainting of the wedge region on the modes that we can cleanly observe.
+                                        <br> <br>
+                                        Stay tuned...
+                                        <br><br>
+                                        <font size="-3">Image credit - Jingchuan Yu, Beijing Planetarium</font>
+                                        <br><br>
+                                    </font>
+                                </p>
+                                <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Portfolio Modal 8-->
     <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8"
         aria-hidden="true">
@@ -334,6 +410,8 @@
                                         a species clustering onto dark-matter halos over time.
                                         <br> <br>
                                         Paper coming soon...
+                                        <br><br>
+                                        <font size="-3">Image - Created with DALL·E 3</font>
                                         <br><br>
                                     </font>
                                 </p>
@@ -394,6 +472,8 @@
                                         can
                                         be found <a href="https://github.com/NNSSA/Galaxy_GenAI"
                                             target="_blank">here</a>.
+                                        <br><br>
+                                        <font size="-3">Image - Output of simulation</font>
                                         <br><br>
                                     </font>
                                 </p>
