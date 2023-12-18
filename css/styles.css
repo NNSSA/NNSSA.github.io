@@ -11800,6 +11800,11 @@ html {
     padding: 6rem 0;
 }
 
+.page-section2 {
+    padding: 6rem 0;
+    background-color: #D3D3D3;
+}
+
 .page-section .page-section-heading {
     font-size: 2.25rem;
     line-height: 2rem;
@@ -11807,6 +11812,18 @@ html {
 
 @media (min-width: 992px) {
     .page-section .page-section-heading {
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+}
+
+.page-section2 .page-section2-heading {
+    font-size: 2.25rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 992px) {
+    .page-section2 .page-section2-heading {
         font-size: 3rem;
         line-height: 2.5rem;
     }
